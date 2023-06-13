@@ -1,0 +1,181 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+/* global css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.latest-course{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #562EFF;
+    font-size: 24;
+    font-weight: 500;
+}
+h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: 000000;
+}
+a{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color:#562EFF;
+}
+.top-player h2{
+    font-size: 18px;
+}
+.latest-course a,p{
+    font-size: 14px;
+    color: #ED6B4F;
+}
+.latest-course h2{
+    color: #1E1E1E;
+}
+/* body background */
+.body-background{
+    background-color: #F3F1FF;
+}
+/* nav section css */
+nav{
+    background: #562EFF;
+}
+nav .nav-link{
+    color: white !important;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.navbar-brand img{
+    height: 51px;
+    width: 41px;
+}
+.nav-item{
+    margin-right: 30px;
+}
+/* first two section */
+.first{
+    background: #ffffff;
+}
+/* top player secrtion css */
+.top-player{
+    border-bottom: 1px solid #D1D1D1;
+    padding: 30px;
+}
+.players{
+    margin-top: 40px;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+}
+.players h2{
+    display: inline;
+    margin-left: 13px;
+}
+/* top blog section css */
+.top-blog{
+    padding: 0 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.blogs{
+    display: flex;
+}
+.top-blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-content{
+    display: flex;
+    gap:20px;
+    margin-top: 30px;
+}
+.top-blog h2{
+    margin-top: 10px;
+}
+.top-blog span{
+    color: #9F9F9F;
+}
+/* latest news section css */
+.latest-course{
+    margin-top: 21px;
+}
+.second{
+    background: #ffffff;
+    padding: 30px;
+}
+.course-shadow{
+    padding: 13px 17px 13px 11px;
+    box-shadow:0 5.3px 13.3px rgba(0, 0, 0, 0.05);
+}
+.course-flex{
+    display: flex;
+    gap: 150px;
+}
+.course-flex img{
+    width: 224px;
+    height: 104px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+}
+.icons img{
+    height: 12px;
+    width: 12px;
+    margin-top: 5px;
+}
+.icons span{
+    margin-top: 0;
+    color: #A2A2A2;
+    margin-left: 10px;
+}
+.time{
+    margin-left: 30px;
+    margin-top: -2px;
+    background: #FFE4E8;
+    padding: 0;
+    height: 25px;
+    border-radius: 25px;
+    width: 85px;
+}
+.time img{
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+.time p{
+    color: #ED6B4F;
+    margin-top: -38px;
+    margin-left: 30px;
+}
+@media screen and (min-width:320px) and (max-width:576px) {
+    .players{
+        margin-top: 0;
+    }
+    .player-content{
+        margin-top: 40px;
+    }
+    .blogs{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .course-flex{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .top-blog img{
+        width: 127px;
+        height: 117px;
+    }
+    .blogs{
+        margin-bottom: 50px;
+    }
+}
